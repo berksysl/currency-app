@@ -14,13 +14,13 @@
             <h1>Currency Converter</h1>
             <label id="amountLabel" for="amount">
                 <h2>Amount</h2>
-                <input type="text" name="amount" id="amount">
+                <input type="number" name="amount" id="amount" value="1">
             </label>
             <label for="From">
                 <h2>From</h2>
                 <select name="fcurrencies" id="fcurrencies">
                     <option value="TRY">TRY</option>
-                    <option value="USD">USD</option>
+                    <option value="USD" selected>USD</option>
                     <option value="EUR">EUR</option>
                 </select>
             </label>
@@ -30,7 +30,7 @@
             </div>
             <label for="To">
                 <select name="tcurrencies" id="tcurrencies">
-                    <option value="TRY">TRY</option>
+                    <option value="TRY" selected>TRY</option>
                     <option value="USD">USD</option>
                     <option value="EUR">EUR</option>
                 </select>
@@ -38,5 +38,6 @@
             <button>Convert</button>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
