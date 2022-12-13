@@ -1,8 +1,8 @@
 # Currency Converter App
-Currency Converter using Fixer API
+Creating Currency Converter using Fixer API
 
 # Live Preview
-
+https://berksysl.github.io/currency-app/
 
 # Preview
 
