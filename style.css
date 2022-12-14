@@ -63,7 +63,8 @@ select {
 .container h2 {
     margin: 0;
     transition: all 0.5s ease-in-out;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
 }
 
 button {

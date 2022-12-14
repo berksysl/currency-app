@@ -31,7 +31,7 @@ submit.addEventListener("click", function(){
     getInputs();
     result.innerHTML = "Getting rates...";
     console.log("amount: " + amount + " from: " + from + " to : " + to);
-    fetch(`https://api.apilayer.com/fixer/convert?to=${to}&from=${from}&amount=${amount}`, requestOptions)
+    fetch(`https://api.apilayer.com/exchangerates_data/convert?to=${to}&from=${from}&amount=${amount}`, requestOptions)
   .then(response => response.json())
   .then(resultObj => result.innerHTML = resultObj.result.toFixed(2) + " " + resultObj.query.to)
   .catch(error => console.log('error', error));
